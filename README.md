@@ -2,7 +2,7 @@
 
 ## Overview
 
-A graphic interface is developed with Visual Studio and C++ to assist the experimental data analysis from dynamical mechanics analysis (DMA) measurements with the functions of importing data, data linear fitting with GSL, figure plotting with wxWidgets, and data outputting to files and images.
+A graphic interface is developed with C++ 17 to assist the experimental data analysis from dynamical mechanics analysis (DMA) measurements with the functions of importing data, data linear fitting with GSL, figure plotting with wxWidgets, and data outputting to files and images.
 
 ## Features
 - Import experimental data from local disk or server
@@ -17,6 +17,7 @@ A graphic interface is developed with Visual Studio and C++ to assist the experi
 - **GSL - GNU Scientific Library** ([Link](https://www.gnu.org/software/gsl/))
 - **wxWidgets** (Version 3.1.4) ([Link](https://www.wxwidgets.org/))
 - **Json For C++** ([Link](https://github.com/nlohmann/json/))
+- **curl** ([Link](https://curl.se/libcurl/))
 
 ### Interactive window 
 Supporting operations like zooming in, zooming out, coordinates tracing, span moving.
